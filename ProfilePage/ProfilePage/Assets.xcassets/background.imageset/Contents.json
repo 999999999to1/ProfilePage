@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "zai-lan-se-qiang-bei-jing-xia-zhong-zhi-bing-you-fu-zhi-kong-jian_副本.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
