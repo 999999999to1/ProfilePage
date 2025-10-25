@@ -19,7 +19,6 @@
 ## 功能
 
 - **横向分页**：在多个内容页之间平滑滑动，支持分页动画。  
-- **多图列表**：用户可以浏览头像、相册或其他图片集合，支持简单的缩放和滑动浏览。  
 - **可伸缩头部**：顶部区域根据滚动自动伸缩，尽量实现流畅的视觉过渡。  
 - **Header 高度过渡**：随着内容滚动，Header 高度动态变化，效果尽可能自然。  
 - **Tab 切换动画**：底部或顶部 Tab 切换时，内容与动画尝试做到无缝衔接。  
@@ -33,7 +32,7 @@
 
 - SwiftUI 声明式布局用于快速构建内容视图  
 - UIKit 控制滚动，实现 Header 伸缩和分页动画  
-- 多图浏览、横向分页和垂直滚动同步  
+- 横向分页和垂直滚动同步  
 - 尽量保持组件可复用和易于扩展  
 
 ---
@@ -56,8 +55,7 @@ This is an **attempt at a user profile page component implemented with a mix of 
 
 ## Features
 
-- **Horizontal paging**: Smoothly swipe between multiple content pages with paging animations.  
-- **Multiple image lists**: Users can browse avatars, photo albums, or other image collections, supporting simple zoom and swipe interactions.  
+- **Horizontal paging**: Smoothly swipe between multiple content pages with paging animations. 
 - **Expandable header**: The top area automatically expands or collapses based on scrolling, aiming for a smooth visual transition.  
 - **Header height transition**: The header height dynamically changes with scrolling to achieve as natural an effect as possible.  
 - **Tab switch animations**: Content and animations try to transition seamlessly when switching tabs at the top or bottom.  
@@ -71,7 +69,7 @@ This is an **attempt at a user profile page component implemented with a mix of 
 
 - SwiftUI declarative layout for quickly building content views  
 - UIKit-based scroll control to implement header expansion and paging animations  
-- Multi-image browsing, horizontal paging, and vertical scroll synchronization  
+- Horizontal paging, and vertical scroll synchronization  
 - Strives to keep the component reusable and easily extendable  
 
 ---
