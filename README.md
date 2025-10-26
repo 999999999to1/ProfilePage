@@ -1,15 +1,15 @@
 # ProfilePage
 
-<a href="https://github.com/999999999to1/ProfilePage/raw/main/ProfilePage/horizontal_swipe.gif">
-  <img src="https://github.com/999999999to1/ProfilePage/raw/main/ProfilePage/horizontal_swipe.gif" alt="横向分页动画" width="200">
+<a href="https://github.com/999999999to1/ProfilePage/blob/main/horizontal_swipe.gif">
+  <img src="https://github.com/999999999to1/ProfilePage/blob/main/horizontal_swipe.gif" alt="横向分页动画" width="200">
 </a>
 
-<a href="https://github.com/999999999to1/ProfilePage/raw/main/ProfilePage/scroll_down.gif">
-  <img src="https://github.com/999999999to1/ProfilePage/raw/main/ProfilePage/scroll_down.gif" alt="向下滚动效果" width="200">
+<a href="https://github.com/999999999to1/ProfilePage/blob/main/scroll_down.gif">
+  <img src="https://github.com/999999999to1/ProfilePage/blob/main/scroll_down.gif" alt="向下滚动效果" width="200">
 </a>
 
-<a href="https://github.com/999999999to1/ProfilePage/raw/main/ProfilePage/scroll_up.gif">
-  <img src="https://github.com/999999999to1/ProfilePage/raw/main/ProfilePage/scroll_up.gif" alt="向上滚动效果" width="200">
+<a href="https://github.com/999999999to1/ProfilePage/blob/main/scroll_up.gif">
+  <img src="https://github.com/999999999to1/ProfilePage/blob/main/scroll_up.gif" alt="向上滚动效果" width="200">
 </a>
 
 这是一个 **尝试用 SwiftUI 与 UIKit 混合实现的用户个人主页组件**，主要用于个人信息展示和多图内容浏览。设计上尽量考虑了交互流畅性和视觉效果，适合社交应用、个人主页或相册展示场景。
