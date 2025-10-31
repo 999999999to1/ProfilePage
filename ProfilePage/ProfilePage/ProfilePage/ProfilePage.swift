@@ -18,7 +18,7 @@ struct ProfilePage: View {
         ScrollViewReader { scrollProxy in
             ZStack(alignment: .top) {
                 ScrollView(.horizontal) {
-                    LazyHStack(spacing: 0) {
+                    HStack(spacing: 0) {
                         ForEach(PageTab.allCases) { tab in
                             ListView(tab: tab).id(tab)
                         }
