@@ -1,6 +1,5 @@
 import SwiftUI
 
-@MainActor
 class ProfilePageModel: ObservableObject {
     
     struct State: Equatable {
@@ -39,7 +38,7 @@ class ProfilePageModel: ObservableObject {
     }
     
     func verticalScrollOffsetChanged(_ offset: CGFloat, tab: PageTab) {
-        state.verticalScrollOffsets[tab] = offset - state.tabRowHeight - HEADER_IMAGE_HEIGHT
+        state.verticalScrollOffsets[tab] = offset
     }
     
     func horizontalScrollOffsetChanged(_ offset: CGFloat) {

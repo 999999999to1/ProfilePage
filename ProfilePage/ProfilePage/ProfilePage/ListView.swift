@@ -13,19 +13,19 @@ struct ListView: View {
         ScrollView {
             LazyVStack(spacing: 0) {
                 VStack(spacing: 0) {
-                    Color.clear.frame(height: HEADER_IMAGE_HEIGHT + profilePageModel.state.tabRowHeight)
-                    
                     Color.clear.background {
                         GeometryReader { proxy in
                             Color.clear.preference(
                                 key: VerticalScrollOffsetPreferenceKey.self,
-                                value: proxy.frame(in: .named(coordinateSpaceName)).origin.y
+                                value: proxy.frame(in: .named(coordinateSpaceName)).minY
                             )
                         }
                     }
                     .onPreferenceChange(VerticalScrollOffsetPreferenceKey.self) { offset in
                         profilePageModel.verticalScrollOffsetChanged(offset, tab: tab)
                     }
+                    
+                    Color.clear.frame(height: HEADER_IMAGE_HEIGHT + profilePageModel.state.tabRowHeight)
                     
                     /// -------------------
                     let numbers = [26, 4, 125]
